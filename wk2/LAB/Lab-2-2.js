@@ -9,6 +9,7 @@
 		// user name input
 		// password input
 	var userName1 = "dart";
+	var password1 = "vedor"
 
 //====LOGIC===================
 //3. CREATE POPUP BOX FOR USERNAME
@@ -24,7 +25,7 @@ var password = prompt("Please enter password")
 console.log(password)
 
 //7. CHECK IF PROVIDED USERNAME AND PROVIDED PASSWORD MATCH THE STORED USERNAME/PASSWORD
-if (userName === "dart" && password === "vador")
+if (userName === userName1 && password === password1)
 
 //8. IF THEY MATCH, POPUP SUCCESS MESSAGE AND OUTPUT TO CONSOLE
 {alert("Welcome back "+ userName) + console.log("Login successful")
